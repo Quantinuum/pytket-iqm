@@ -18,5 +18,5 @@ Windows. To install, run:
 .. toctree::
    :caption: Useful links
 
-   Issue tracker <https://github.com/CQCL/pytket-iqm/issues>
+   Issue tracker <https://github.com/Quantinuum/pytket-iqm/issues>
    PyPi <https://pypi.org/project/pytket-iqm/>
