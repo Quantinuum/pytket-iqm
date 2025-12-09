@@ -1,5 +1,1 @@
-pytest
-pytest-timeout
-hypothesis
-requests_mock
-types-requests
+TODO DELETE THIS FILE
