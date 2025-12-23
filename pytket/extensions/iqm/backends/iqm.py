@@ -19,6 +19,10 @@ from typing import cast
 from uuid import UUID
 
 import numpy as np
+
+from iqm.iqm_client.iqm_client import IQMClient
+from iqm.iqm_client.models import Circuit as IQMCircuit
+from iqm.iqm_client.models import Instruction, Metadata, Status
 from pytket.architecture import Architecture
 from pytket.backends import Backend, CircuitStatus, ResultHandle, StatusEnum
 from pytket.backends.backend import KwargTypes
@@ -55,10 +59,6 @@ from pytket.predicates import (
 )
 from pytket.utils import prepare_circuit
 from pytket.utils.outcomearray import OutcomeArray
-
-from iqm.iqm_client.iqm_client import IQMClient
-from iqm.iqm_client.models import Circuit as IQMCircuit
-from iqm.iqm_client.models import Instruction, Metadata, Status
 
 from .config import IQMConfig
 
