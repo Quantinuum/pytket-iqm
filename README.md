@@ -7,7 +7,7 @@
 with tket, a quantum computing toolkit and optimising compiler developed by Quantinuum.
 
 `pytket-iqm` is an extension to `pytket` that allows `pytket` circuits to be
-executed on .
+executed on [IQM](https://meetiqm.com/)'s quantum devices and simulators.
 
 Some useful links:
 
