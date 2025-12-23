@@ -50,5 +50,6 @@ jobs:
     with:
       os: ${{ matrix.os }}
       pyver: ${{ matrix.pyver }}
-      TODO: ${{ secrets.TODO }}
+    secrets:
+      PYTKET_REMOTE_IQM_API_TOKEN: ${{ secrets.PYTKET_REMOTE_IQM_API_TOKEN }}
 

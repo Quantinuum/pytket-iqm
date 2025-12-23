@@ -1,9 +1,9 @@
 [project]
-name = "pytket-TODOEXTNAME"
+name = "pytket-iqm"
 dynamic = ["version"]
 requires-python = ">=3.10,<4.0"
 
-description = "Extension for pytket, TODOPYTKETEXT"
+description = "Extension for pytket, providing access to IQM backends"
 license = { file = "LICENSE" }
 readme = "README.md"
 authors = [
@@ -26,18 +26,14 @@ classifiers = [
     "Topic :: Scientific/Engineering",
 ]
 dependencies = [
-    "pytket >= 2.7.0",
-    "TODOPYTKETEXT",
+    "pytket >= 2.10.2",
+    "iqm-client ~= 22.3",
 ]
 
-[project.optional-dependencies]
-TODOOPTDEP = ["pytket >= 2.7.0"]
-
-
 [project.urls]
-documentation = "https://tket.quantinuum.com/extensions/pytket-TODOEXTNAME/index.html"
-source = "https://github.com/Quantinuum/pytket-TODOEXTNAME"
-tracker = "https://github.com/Quantinuum/pytket-TODOEXTNAME/issues"
+documentation = "https://tket.quantinuum.com/extensions/pytket-iqm/index.html"
+source = "https://github.com/Quantinuum/pytket-iqm"
+tracker = "https://github.com/Quantinuum/pytket-iqm/issues"
 
 [tool.setuptools.packages]
 find = {}
@@ -58,5 +54,6 @@ dev-dependencies = [
     "hypothesis >=6.111.1,<7",
     "pre-commit >=3.8.0,<4",
     "pyupgrade >=2.29,<4.0",
-    "TODOPYTKETEXT",
+    "types-requests",
+    "requests_mock",
 ]
