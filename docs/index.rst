@@ -8,7 +8,7 @@ be executed on IQM's quantum devices and simulators.
 Windows. To install, run:
 
 ::
-   
+
    pip install pytket-iqm
 
 .. toctree::
